@@ -5,7 +5,7 @@ metadata:
 spec: 
   containers: 
   - name: web 
-    image: appsvcsample/flaskapp
+    image: appsvcsample/flaskapp:kube
     # source code for this image repo come from "Get started with Docker Compose" on docker.com
     ports: 
     - containerPort: 80 
